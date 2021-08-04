@@ -52,7 +52,7 @@ public class Attachment {
 
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
-						return new PasswordAuthentication("olaorange10@gmail.com", "Olaorange#2020");
+						return new PasswordAuthentication("olaorange10@gmail.com", "enter ur gamil password here..");
 					}
 					
 				});
