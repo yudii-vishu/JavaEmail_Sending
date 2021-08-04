@@ -21,8 +21,8 @@ public class Attachment {
 	    			+ "We are offering you the winter courses in just Rs.199/- only.."
 	    			+ "HURRY UP !!";
 	    	String subject="JavaBrains : confirmation mail.";
-	    	String to="y.amren00@gmail.com";
-	    	String from="olaorange10@gmail.com";
+	    	String to="reciever gmail account here";
+	    	String from="sender gmail account here";
 	    	
 	    	
 	    	sendAttach(message,subject,to,from);
@@ -52,7 +52,7 @@ public class Attachment {
 
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
-						return new PasswordAuthentication("olaorange10@gmail.com", "enter ur gamil password here..");
+						return new PasswordAuthentication("sender gmail account here", "enter ur gamil password here..");
 					}
 					
 				});
